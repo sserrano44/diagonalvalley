@@ -74,7 +74,9 @@ body{
 .box p{
         text-align: justify;
 	padding: 30px;
-	font-size:26px;
+	font-size:18px;
+        margin: 0 0 1em;
+        line-height: 1.5em;
 }
 .box p.blue{
 	background: #15384e;
@@ -107,18 +109,20 @@ a.btn:hover{
 	-webkit-box-shadow:0 5px 5px #ADCEDF, inset 0 0 25px #41A0DB;
 	box-shadow:0 5px 5px #ADCEDF, inset 0 0 25px #41A0DB;
 }
+
 #footer{
-	background: #fff;
-        height: 60px;
-	width:100%;
-        bottom: 0;
-        position: absolute;
-	/*height:80px;*/
-	padding:20px 0 20px;
+    background: #fff;
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: 30px;
+	padding: 20px 0 20px;
 	-moz-box-shadow:0 0 10px #cad8e1;
 	-webkit-box-shadow:0 0 10px #cad8e1;
 	box-shadow:0 0 10px #cad8e1;
 }
+
 #footer p{
 	margin-top: 30px;
 }
@@ -127,4 +131,47 @@ a.btn:hover{
 	float: left;
 	width:300px;
 	padding:0 10px;
+}
+
+.speakers{
+   width: 900px;
+   margin: 10px 25px;
+   padding-top: 20px;
+}
+
+.speakers div.speaker{
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 150px;
+    /*border: 1px blue solid;*/
+}
+
+div.speaker div.picture{
+    width: 110px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    /*border: 1px red solid;*/
+    display: inline-block;
+    vertical-align: center;
+}
+
+div.speaker div.summary{
+    display: inline-block;
+    width: 600px;
+    vertical-align: top;
+    /*border: 1px green solid;*/
+}
+
+div.summary p{
+    vertical-align: top;
+}
+
+div.summary p a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #125DB1;
+}
+.mapa{
+    margin: 10px auto 20px auto;
+    display: block;
 }
