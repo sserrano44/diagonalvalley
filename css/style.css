@@ -30,7 +30,7 @@ input,select{vertical-align:middle}
 
 }
 body{
-	background: #fdfdfd url(../img/FONDO-DV.jpg) no-repeat;
+	background: #fdfdfd url(../img/FONDO-DV.jpg);
 	font-family: 'hero', 'helvetica neue', Helvetica, Arial, sans-serif;
 	color: #15384e;
 }
@@ -84,7 +84,7 @@ body{
         line-height: 1.5em;
 }
 .box p.blue{
-	background: #15384e;
+	background: #1f5ea3;
 	color:#fefefe;
 	padding:30px;
 	font-size:26px;
@@ -93,9 +93,9 @@ body{
 a.btn{
 	display:inline-block;
 	margin:10px 0 35px;
-	background: #23bfc5;
+	background: #58C1DB;
 	color:#fff;
-	font-size:20px;
+	font-size: 22px;
 	text-decoration: none;
 	padding: 12px 30px 10px;
 	-moz-box-shadow:0 5px 5px #ADCEDF;
@@ -148,9 +148,9 @@ a.btn:hover{
 }
 
 .speakers div.speaker{
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0px 10px 0px;
     padding: 0px 0px 0px 0px;
-    height: 150px;
+    height: 120px;
     /*border: 1px blue solid;*/
 }
 
